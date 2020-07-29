@@ -1,0 +1,432 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+#heading{
+    background-attachment: fixed;
+    position: relative;
+}
+#hb
+{
+   width: 100%;
+   height: 60%;
+   
+}
+#nav{
+   position: absolute;
+   top: 5%;
+   left: 19%;
+}
+#nav a{
+   color: white;
+   text-decoration: none;
+   margin-right: 23px;
+   font-size: 25px;
+}
+#nav a:hover{
+   text-decoration: underline;
+}
+#name{
+  position: absolute;
+  top: 25%;
+  left: 35%
+}
+#name h1{
+color: white;
+   font-size: 65px;
+   font-weight: bolder
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#acc{
+   position: absolute;
+   float: left;
+   top: 58%;
+   left: 45%;
+}
+.icons{
+    border-radius: 50%;
+    margin: 17px;
+   font-size: 20px;
+   color: white;
+}
+#acc a:hover{
+border-width: 2px;
+border-color:white;
+border-style: inset;
+border-image: initial;
+border-radius: 50% 50% 50% 50%; 
+padding: 3px 3px 3px 3px;
+}
+#dp{
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+   border: white 3px solid;
+   position: absolute;
+   top: 70%;
+   left: 40%;
+}
+#about{
+   margin: 12% 12% 10% 12%;
+   font-size: 25px;
+}
+#skills{
+   background-color:gainsboro;
+   width: 100%;
+   height: 450px;
+}
+#skill{
+display: flex;
+align-items: center;
+margin-left: 35%;
+}
+#skill img{
+   margin-right: 5%;
+   width:60px;
+   height: auto;
+}
+#skill p{
+font-size: 60px;
+color: mediumblue;
+}
+.prog{
+display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+.prog div{
+   font-size: 20px;
+   display: flex;
+    align-items: center;
+   margin: 30px;
+}
+.wt{
+  border-radius: 20px;
+  border: black 2px solid;
+  background-color:#ededed;
+  width: 400px;
+  height: 40px;
+  margin: 5px;
+}
+.pos{
+border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height:100%;
+color: white;
+ 
+}
+#c{
+  padding: 0;
+ padding-left: 20px;
+  margin: 0;
+  width: 90%; 
+  background-color: green;
+}
+#p{
+padding: 0;
+padding-left: 20px;
+  margin: 0;
+  width: 70%; 
+  background-color: orange;
+}
+#h{
+padding: 0;
+padding-left: 20px;
+  margin: 0;
+  width: 90%; 
+  background-color: blue;
+}
+#cs{
+padding: 0;
+padding-left: 20px;
+  margin: 0;
+  width: 80%; 
+  background-color: green;
+}
+#js{
+padding: 0;
+padding-left: 20px;
+  margin: 0;
+  width: 70%; 
+  background-color: orange;
+}
+#jq{
+padding: 0;
+padding-left: 20px;
+  margin: 0;
+  width: 65%; 
+  background-color: blue;
+}
+#work{
+  margin: 5% 10% 5% 15%;
+  width: 80%;
+}
+.workheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: mediumblue;
+    margin-bottom: 5%;
+    margin-left: -15%;
+}
+.head-w{
+    text-align: right;
+  display: flex;
+  align-items: center;
+}
+#work img{
+  margin: 15px;
+  width: 60px;
+  height: 60px;
+}
+#work p{
+    font-size: 20px;
+}
+#work h2{
+    font-size: 30px;
+padding: 5px;
+  margin: 0;
+ color: blueviolet; 
+}
+#work h3{
+    font-size:25px;
+padding: 5px;
+  margin: 0;
+  color: brown;
+}
+#work h4{
+  padding: 5px;
+  margin: 0;
+  color: grey;
+}
+#dm .head-w{
+    text-align: left;
+    margin-right: 48%;
+    flex-direction: row-reverse;
+    justify-self: flex-start;
+}
+#tcw{
+    width: 45%;
+}
+#dm{
+    padding: 20px;
+    margin-right:50px; 
+    align-self: flex-end;
+    width: 51%;
+}
+#ta{
+    width: 45%;
+}
+#workcontent{
+    display: flex;
+    flex-direction: column;
+}
+#education{
+  background-color:gainsboro;
+  width: 100%;
+  height: 450px; 
+}
+#eduheading{
+  padding: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: midnightblue;
+}
+#eimg{
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+}
+table{
+  margin-left: 13%;
+  border: 2px black solid;
+  box-shadow: 5px 5px rgba(0,0,0,0.4);
+  font-size: 30px;
+}
+table:hover{
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+}
+td{
+  padding: 10px;
+}
+#certi{
+  margin: 2% 10% 5% 10%;
+  width: 80%;
+}
+#certihead{
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: midnightblue;
+}
+#certiimg{
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+}
+#certicontent{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.card{
+  position: relative;
+  margin: 45px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px 5px gainsboro;
+}
+.card:hover{
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  border: 1px grey solid;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+.card img{
+  width: 300px;
+  height: 250px;
+}
+.card img:hover{
+  opacity: 0.1;
+  
+}
+.imgtext{
+  display: none;
+}
+.card p{
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+}
+.card:hover .imgtext{
+  display: block;
+
+}
+#achi{
+  background-color:gainsboro;
+  width: 100%;
+  height: 450px;
+}
+#achihead img{
+  margin-right: 2%;
+  width: 80px;
+  height: 80px;
+  background-color: gainsboro;
+}
+#achihead{
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: blue;
+}
+#achicontent{
+  width: 90%;
+  margin-left: 4%;
+  font-size: 25px;
+}
+@keyframes example{
+  0%{
+    left:0px;
+  }
+  50%{
+    left: 5%;
+  }
+  100%{
+    left: 0px;
+  }
+}
+li{
+  padding: 1% 1% 0% 1%;
+}
+li:hover{
+  position: relative;
+  animation-name: example;
+  font-weight: bold;
+  animation-duration: 2s;
+  border: 1px grey solid;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+#cont{
+  position: relative;
+  padding-bottom: 5%;
+  width: 100%;
+  height: auto;
+  background-image:linear-gradient(90deg,#003366,#003333);
+}
+#conthead i{
+  margin-right: 2%;
+  background-color: transparent;
+}
+#conthead{
+  padding: 2%;
+  margin-left: 35%;
+  font-size: 50px;
+  color: white;
+}
+.ip{
+  height: 40px;
+  width: 35%;
+  background-color: transparent;
+  border-color: transparent transparent white transparent;
+  margin: 3%;
+  margin-left: 10%;
+  color: white;
+}
+.bt{
+  margin-left: 20%;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  padding: 1%;
+  border: 2px solid white;
+}
+.bt:hover{
+  font-weight: bold;
+  background-color: white;
+  color: mediumblue;
+}
+::placeholder {
+  color:white;
+  font-size: 20px;;
+  opacity: 1; /* Firefox */
+}
+#address i{
+  margin-top: 4px;;
+  margin-right: 10px;
+  color: white;
+}
+#address h3{
+  font-family: "abode-clean",serif;
+  font-size: 30px;
+  color: white;
+}
+#address p{
+  color: white;
+  font-size: 25px;
+}
+#address{
+  position: absolute;
+  left: 55%;
+  top:21%;
+}
+footer{
+  padding: 3%;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 20px;;
+}
