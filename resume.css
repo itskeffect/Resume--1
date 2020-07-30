@@ -454,6 +454,7 @@ footer{
   #about{
     width: 90%;
     height: 240px;
+      padding-bottom: 10px;
     margin: 7% 3% 5% 3%;
     font-size: 5vw;
   }
