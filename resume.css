@@ -24,8 +24,8 @@ body{
 #nav a{
    color: white;
    text-decoration: none;
-   margin-right: 23px;
-   font-size: 25px;
+   margin-right: 2vw;
+   font-size: 1.5em;
 }
 #nav a:hover{
    text-decoration: underline;
@@ -37,8 +37,8 @@ body{
 }
 #name h1{
 color: white;
-   font-size: 65px;
-   font-weight: bolder
+   font-size: 4em;
+   font-weight: bolder;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #acc{
@@ -48,22 +48,17 @@ color: white;
    left: 45%;
 }
 .icons{
-    border-radius: 50%;
-    margin: 17px;
-   font-size: 20px;
+    margin: 15px;
+   font-size: 2em;
    color: white;
 }
 #acc a:hover{
-border-width: 2px;
-border-color:white;
-border-style: inset;
-border-image: initial;
 border-radius: 50% 50% 50% 50%; 
 padding: 3px 3px 3px 3px;
 }
 #dp{
-   width: 250px;
-   height: 250px;
+   width: 18vw;
+   height: 18vw;
    border-radius: 50%;
    border: white 3px solid;
    position: absolute;
@@ -71,13 +66,14 @@ padding: 3px 3px 3px 3px;
    left: 40%;
 }
 #about{
-   margin: 12% 12% 10% 12%;
-   font-size: 25px;
+   margin: 12% 12% 7% 12%;
+   font-size: 2vw;
 }
 #skills{
    background-color:gainsboro;
    width: 100%;
-   height: 450px;
+   margin-bottom: 4%;
+   height: auto;
 }
 #skill{
 display: flex;
@@ -86,11 +82,11 @@ margin-left: 35%;
 }
 #skill img{
    margin-right: 5%;
-   width:60px;
+   width:3.5vw;
    height: auto;
 }
 #skill p{
-font-size: 60px;
+font-size: 3vw;
 color: mediumblue;
 }
 .prog{
@@ -99,17 +95,17 @@ display: flex;
    justify-content: space-evenly;
 }
 .prog div{
-   font-size: 20px;
+   font-size: 2vw;
    display: flex;
     align-items: center;
-   margin: 30px;
+   margin: 3%;
 }
 .wt{
   border-radius: 20px;
   border: black 2px solid;
   background-color:#ededed;
-  width: 400px;
-  height: 40px;
+  width: 20%;
+  height: auto;
   margin: 5px;
 }
 .pos{
@@ -128,7 +124,7 @@ color: white;
 }
 #p{
 padding: 0;
-padding-left: 20px;
+padding-left: 2vw;
   margin: 0;
   width: 70%; 
   background-color: orange;
@@ -169,7 +165,7 @@ padding-left: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 60px;
+    font-size: 3.5vw;
     color: mediumblue;
     margin-bottom: 5%;
     margin-left: -15%;
@@ -180,21 +176,25 @@ padding-left: 20px;
   align-items: center;
 }
 #work img{
-  margin: 15px;
-  width: 60px;
-  height: 60px;
+  margin: 10px;
+  width: 5%;
+  height: auto;
+}
+#workcontent img{
+  width: 50%;
+  height: auto;
 }
 #work p{
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 #work h2{
-    font-size: 30px;
-padding: 5px;
+    font-size: 2vw;
+padding: 3px;
   margin: 0;
  color: blueviolet; 
 }
 #work h3{
-    font-size:25px;
+    font-size:1.8vw;
 padding: 5px;
   margin: 0;
   color: brown;
@@ -206,7 +206,7 @@ padding: 5px;
 }
 #dm .head-w{
     text-align: left;
-    margin-right: 48%;
+    margin-right: 10%;
     flex-direction: row-reverse;
     justify-self: flex-start;
 }
@@ -229,31 +229,27 @@ padding: 5px;
 #education{
   background-color:gainsboro;
   width: 100%;
-  height: 450px; 
+  height: auto;
+  padding-bottom: 2%; 
 }
 #eduheading{
   padding: 4%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 50px;
+  font-size: 3vw;
   color: midnightblue;
 }
 #eimg{
   margin-right: 20px;
-  width: 60px;
-  height: 60px;
+  width: 10%;
+  height: 10%;
 }
 table{
   margin-left: 13%;
   border: 2px black solid;
   box-shadow: 5px 5px rgba(0,0,0,0.4);
-  font-size: 30px;
-}
-table:hover{
-  position: relative;
-  animation-name: example;
-  animation-duration: 2s;
+  font-size: 2vw;
 }
 td{
   padding: 10px;
@@ -267,13 +263,13 @@ td{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 50px;
+  font-size: 3vw;
   color: midnightblue;
 }
 #certiimg{
-  margin-right: 20px;
-  width: 60px;
-  height: 60px;
+  margin-right: 2%;
+  width: 7%;
+  height: 7%;
 }
 #certicontent{
   width: 100%;
@@ -283,36 +279,32 @@ td{
 }
 .card{
   position: relative;
-  margin: 45px;
+  margin: 4%;
   border: 2px solid black;
   box-shadow: 5px 5px 5px 5px gainsboro;
 }
 .card:hover{
   position: relative;
-  animation-name: example;
-  animation-duration: 2s;
   border: 1px grey solid;
   box-shadow: 2px 2px 2px 2px gray;
 }
 .card img{
-  width: 300px;
-  height: 250px;
+  width: 17vw;
+  height: 15vw;
 }
 .card img:hover{
   opacity: 0.1;
-  
 }
 .imgtext{
-  display: none;
+   z-index:-1;
 }
 .card p{
   font-size: 20px;
   position: absolute;
   top: 0;
 }
-.card:hover .imgtext{
-  display: block;
-
+.card:hover .imgtext:hover{
+  opacity: 0.1;
 }
 #achi{
   background-color:gainsboro;
@@ -321,8 +313,8 @@ td{
 }
 #achihead img{
   margin-right: 2%;
-  width: 80px;
-  height: 80px;
+  width: 5%;
+  height: 5%;
   background-color: gainsboro;
 }
 #achihead{
@@ -330,13 +322,13 @@ td{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 50px;
+  font-size: 2.5vw;
   color: blue;
 }
 #achicontent{
   width: 90%;
   margin-left: 4%;
-  font-size: 25px;
+  font-size: 1.5vw;
 }
 @keyframes example{
   0%{
@@ -374,11 +366,11 @@ li:hover{
 #conthead{
   padding: 2%;
   margin-left: 35%;
-  font-size: 50px;
+  font-size: 2.5vw;
   color: white;
 }
 .ip{
-  height: 40px;
+  height: 2vw;
   width: 35%;
   background-color: transparent;
   border-color: transparent transparent white transparent;
@@ -390,7 +382,7 @@ li:hover{
   margin-left: 20%;
   background-color: transparent;
   color: white;
-  font-size: 20px;
+  font-size: 1.5vw;
   padding: 1%;
   border: 2px solid white;
 }
@@ -401,22 +393,22 @@ li:hover{
 }
 ::placeholder {
   color:white;
-  font-size: 20px;;
+  font-size: 1.5vw;
   opacity: 1; /* Firefox */
 }
 #address i{
-  margin-top: 4px;;
-  margin-right: 10px;
+  margin-top: 4%;;
+  margin-right: 10%;
   color: white;
 }
 #address h3{
   font-family: "abode-clean",serif;
-  font-size: 30px;
+  font-size: 1.5vw;
   color: white;
 }
 #address p{
   color: white;
-  font-size: 25px;
+  font-size: 1.5vw;
 }
 #address{
   position: absolute;
@@ -428,5 +420,188 @@ footer{
   width: 100%;
   margin: 0 auto;
   font-weight: bold;
-  font-size: 20px;;
+  font-size: 2vw;
+}
+.ic{
+  font-size: 36px;
+}
+@media (min-width: 320px) and (max-width: 680px){
+  #heading{
+    width: 100%;
+    height: 200px;;
+    position: relative;
+    background-color: black;
+  }
+  #hb{
+    display: none;;
+  }
+  #dp{
+    position: relative;
+    top: 5%;
+    left: 1%;
+    width: 40vw;
+    height: 45vw;
+  }
+  #nav{
+    display:none;
+  }
+  #name h1{
+    margin-left: 20%;
+    margin-top: -10%;
+    margin-bottom: 5%;
+    font-size: 10vw;
+  }
+  #about{
+    width: 90%;
+    height: 210px;
+    margin: 7% 3% 5% 3%;
+    font-size: 5vw;
+  }
+  #skill{
+    margin:0;
+    margin-left: 5%;
+  }
+  #skill img{
+    width: 11vw;
+    height: auto;
+  }
+  #skill p{
+    font-size: 9vw;
+  }
+  .wt{
+    border-radius: 20px;
+    border: black 2px solid;
+    background-color:#ededed;
+    width: 80%;
+    height: 30px;
+    margin: 5px;
+  }
+  .prog div{
+    font-size: 5vw;
+  }
+  .workheading{
+    font-size: 8vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  #work img{
+    margin: 0;
+    width: 40px;
+    height: auto;
+  }
+  #ta{
+    padding: 0;
+    margin:0;
+    margin-left: -10%;
+    width: 100%;
+  }
+  .head-w{
+    text-align: left;
+  }
+  #work h2{
+    font-size: 7vw;
+  }
+  #work h3{
+    font-size: 6vw;
+  }
+  #work h4{
+    font-size: 5vw;
+  }
+  #work p{
+    font-size: 4vw;
+  }
+  #dm .head-w{
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+  }
+  #dm{
+    margin-left: -20px;
+    padding: 0;
+    width: 100%;
+    align-self: flex-start;
+  }
+  #tcw{
+    margin-left:-20px;
+    width: 100%;
+  }
+  #eduheading{
+    margin:0;
+    justify-content: flex-start;
+    font-size: 7vw;
+  }
+  table{
+    margin-left: 2px;
+    margin-right: 4px;
+    font-size: 4.5vw;
+  }
+  #education{
+    padding-bottom:6%;
+  }
+  #certi{
+    width: 90%;
+  }
+  #certihead{
+    margin: 0;
+    padding:2%;
+    font-size: 7vw;
+    margin-left: -48%;;
+  }
+  .card{
+    width: 60vw;
+    height:auto;
+  }
+  .card img{
+    width: 100%;
+    height: auto;
+  }
+  #achi{
+    height: auto;
+    padding: 2%;
+  }
+  #achihead img{
+    width: 8%;
+  }
+  #achihead{
+    justify-content: flex-start;
+    font-size: 7vw;
+  }
+  li{
+    font-size: 4.5vw;
+  }
+  #cont{
+    height: 350px;
+  }
+  #conthead{
+    margin-left: 0;
+    font-size: 7.5vw;
+  }
+  ::placeholder{
+    font-size: 3vw;
+  }
+  .ip{
+    margin-left:1%;
+    margin-bottom: 5%;
+    height: 8vw;
+  }
+  .bt{
+    margin-left: 2%;
+    font-size: 3.4vw;
+  }
+  footer {
+    font-size: 5vw;
+  }
+  #address{
+    top: 10%;
+    left: 40%;
+  }
+  #address p{
+    font-size: 3.5vw;
+  }
+  #address h3{
+    font-size: 4.5vw;
+  }
+  .ic{
+    font-size: 7px;
+  }
 }
